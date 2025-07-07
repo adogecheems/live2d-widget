@@ -1,0 +1,17 @@
+{
+    "models": [
+        "PotionMaker/Pio",
+        "PotionMaker/Tia",
+        [
+            "ShizukuTalk/shizuku-48",
+            "ShizukuTalk/shizuku-pajama"
+        ],
+        "chino"
+    ],
+    "messages": [
+        "来自 Potion Maker 的 Pio 酱 ~",
+        "来自 Potion Maker 的 Tia 酱 ~",
+        "Shizuku Talk ！这里是 Shizuku ~",
+        "欢迎光临 Rabbit house ~"
+    ]
+}
