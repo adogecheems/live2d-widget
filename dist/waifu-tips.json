@@ -82,21 +82,21 @@
       ]
     },
     {
-      "selector": "a[href='/tags/'][class='site-page']",
+      "selector": "a[href='/tags/'][class='site-page'], .card-tags",
       "text": [
         "点击就可以看文章的标签啦！",
         "点击来查看所有标签哦。"
       ]
     },
     {
-      "selector": "a[href='/categories/'][class='site-page']",
+      "selector": "a[href='/categories/'][class='site-page'], .card-categories",
       "text": [
         "文章都分类好啦～",
         "点击来查看文章分类哦。"
       ]
     },
     {
-      "selector": "a[href='/archives/'][class='site-page']",
+      "selector": "a[href='/archives/'][class='site-page'], .card-archives",
       "text": [
         "翻页比较麻烦吗，那就来看看文章归档吧。",
         "文章目录都整理在这里啦！"
@@ -111,7 +111,7 @@
       ]
     },
     {
-      "selector": "a[href='https://alist.mmoe.work/']",
+      "selector": "a[href*='alist']",
       "text": [
         "主人的小窝！",
         "主人的好东西都在这里了～",
@@ -173,13 +173,13 @@
       ]
     },
     {
-      "selector": ".article-title",
+      "selector": ".article-title, .title",
       "text": [
         "要看看这篇文章吗？"
       ]
     },
     {
-      "selector": "a[href='#post-comment']",
+      "selector": "#post-comment",
       "text": [
         "要去看看评论吗？"
       ]
