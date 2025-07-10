@@ -3,6 +3,13 @@
  * https://github.com/stevenjoezhang/live2d-widget
  */
 
+// Set default model and texture
+// 设置默认模型和材质
+if (localStorage.getItem('modelId') === null) {
+  localStorage.setItem('modelId', '3');
+  localStorage.setItem('modelTexturesId', '0');
+}
+
 // Recommended to use absolute path for live2d_path parameter
 // live2d_path 参数建议使用绝对路径
 const live2d_path = 'https://l2d.mmoe.work/dist/';
