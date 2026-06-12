@@ -3,10 +3,12 @@
  * https://github.com/stevenjoezhang/live2d-widget
  */
 
+const base_url = 'https://l2d.mmoe.work';
+
 // Recommended to use absolute path for live2d_path parameter
 // live2d_path 参数建议使用绝对路径
 // const live2d_path = 'https://fastly.jsdelivr.net/npm/live2d-widgets@1.0.1/dist/';
-const live2d_path = '/dist/';
+const live2d_path =  base_url + '/dist/';
 
 // Method to encapsulate asynchronous resource loading
 // 封装异步加载资源的方法
@@ -56,7 +58,7 @@ function loadExternalResource(url, type) {
   // 配置选项的具体用法见 README.md
   initWidget({
     waifuPath: live2d_path + 'waifu-tips.json',
-    cdnPath: '/storage/',
+    cdnPath: base_url + '/storage/',
     cubism2Path: live2d_path + 'live2d.min.js',
     cubism5Path: live2d_path + 'live2dcubismcore.min.js',
     tools: ['hitokoto', 'asteroids', 'switch-model', 'switch-texture', 'photo', 'info', 'quit'],
