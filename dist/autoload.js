@@ -3,11 +3,15 @@
  * https://github.com/stevenjoezhang/live2d-widget
  */
 
-const base_url = 'https://l2d.mmoe.work';
+
+if (!localStorage.getItem('modelId')) {
+  localStorage.setItem('modelId', '3'); // 设置默认看板娘 ID（智乃）
+}
 
 // Recommended to use absolute path for live2d_path parameter
 // live2d_path 参数建议使用绝对路径
 // const live2d_path = 'https://fastly.jsdelivr.net/npm/live2d-widgets@1.0.1/dist/';
+const base_url = 'https://l2d.mmoe.work';
 const live2d_path =  base_url + '/dist/';
 
 // Method to encapsulate asynchronous resource loading
